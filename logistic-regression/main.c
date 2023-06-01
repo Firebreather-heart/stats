@@ -16,8 +16,8 @@ int main()
     double y_train[5] = {0, 1, 0, 1, 1};
     int rows, cols;
     rows = 5, cols = 5;
-    double *wsArr = malloc(rows * sizeof(double))
-    weightedSum(x_train, )
+    double *wsArr = malloc(rows * sizeof(double));
+    weightedSum(x_train, wsArr, rows, cols);
 }
 
 void logisticFit(double *x, float *out, int size)

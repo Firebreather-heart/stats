@@ -1,0 +1,1 @@
+#The stats repo contains my attempts to write machine learning algorithms from scratch with no 3rd party libraries in C.
